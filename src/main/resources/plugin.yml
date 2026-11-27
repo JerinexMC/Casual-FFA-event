@@ -1,0 +1,17 @@
+name: CasualFFA
+version: 1.0.0
+main: com.casualsmp.casualffa.CasualFFA
+api-version: '1.21'
+author: CasualSMP
+description: Free-for-all tournament system with protected player inventory backups.
+commands:
+  ffa:
+    description: Manage and join FFA tournaments.
+    usage: /ffa
+permissions:
+  casualffa.admin:
+    description: Allows managing FFA tournaments.
+    default: op
+  casualffa.bypasslock:
+    description: Allows staff to use commands while participating.
+    default: op

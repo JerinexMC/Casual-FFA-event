@@ -1,0 +1,14 @@
+# Random spawn spread around the location set with /ffa setarena.
+spawn-radius: 35
+
+messages:
+  prefix: '&8[&bCasualFFA&8] '
+  no-permission: '&cYou do not have permission.'
+  not-configured: '&cSet the lobby and arena first.'
+  not-open: '&cThere is no open FFA registration right now.'
+  already-joined: '&cYou are already registered or have already been eliminated.'
+  excluded: '&cYou are excluded from this tournament.'
+  joined: '&a%player% joined the FFA!'
+  eliminated: '&c%player% has been eliminated!'
+  winner: '&6%player% is the last player standing and wins the FFA!'
+  no-winner: '&eThe FFA ended without a winner.'
